@@ -1,0 +1,67 @@
+.. MammoPy documentation master file, created by
+   sphinx-quickstart on Wed May 17 10:25:51 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to MammoPy's documentation!
+===================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   modules
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
+.. raw:: html
+
+   <p align="center">
+
+.. raw:: html
+
+   </p>
+
+MammoPy
+=======
+
+A Comprehensive Deep Learning Library for Mammogram Assessment
+
+|PyPI version| |GitHub| # Useful Links
+`[Documentation] <https://github.com/uefcancer/mammopy/>`__ \|
+`[Paper] <>`__ \| `[Notebook examples] <>`__ \| `[Web
+applications] <>`__ # Introduction **Welcome to ``MammoPy``
+Repository!** ``MammoPy`` is a python-based library designed to
+facilitate the creation of mammogram image analysis pipelines . The
+library includes plug-and-play modules to perform:
+
+-  Standard mammogram image pre-processing (e.g., *normalization*,
+   *bounding box cropping*, and *DICOM to jpeg conversion*)
+
+-  Mammogram assessment pipelines (e.g., *breast area segmentation*,
+   *dense tissue segmentation*, and *percentage density estimation*)
+
+-  Modeling deep learning architectures for various downstream tasks
+   (e.g., *micro-calcification* and *mass detection*)
+
+-  Feature attribution-based interpretability techniques (e.g.,
+   *GradCAM*, *GradCAM++*, and *LRP*)
+
+-  Visualization
+
+All the functionalities are grouped under a user-friendly API.
+
+If you encounter any issue or have questions regarding the library, feel
+free to `open a GitHub
+issue <https://github.com/uefcancer/mammopy/issues>`__. We’ll do our
+best to address it.
+
+.. |PyPI version| image:: https://badge.fury.io/py/mammopy.svg
+   :target: https://badge.fury.io/py/mammopy
+.. |GitHub| image:: https://img.shields.io/github/license/mammopy/mammopy

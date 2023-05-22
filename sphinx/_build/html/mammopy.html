@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mammopy package &mdash; MammoPy  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="MammoPy" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            MammoPy
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">MammoPy</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">mammopy package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-mammopy.analysis">mammopy.analysis module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mammopy.analysis.analysis"><code class="docutils literal notranslate"><span class="pre">analysis</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-mammopy.pre_process">mammopy.pre_process module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mammopy.pre_process.pre_process"><code class="docutils literal notranslate"><span class="pre">pre_process</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-mammopy.visualization">mammopy.visualization module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mammopy.visualization.visualization"><code class="docutils literal notranslate"><span class="pre">visualization</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MammoPy</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">MammoPy</a></li>
+      <li class="breadcrumb-item active">mammopy package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/mammopy.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mammopy-package">
+<h1>mammopy package<a class="headerlink" href="#mammopy-package" title="Permalink to this heading"></a></h1>
+<section id="module-mammopy.analysis">
+<span id="mammopy-analysis-module"></span><h2>mammopy.analysis module<a class="headerlink" href="#module-mammopy.analysis" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="mammopy.analysis.analysis">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mammopy.analysis.</span></span><span class="sig-name descname"><span class="pre">analysis</span></span><a class="reference internal" href="_modules/mammopy/analysis.html#analysis"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.analysis.analysis" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mammopy.analysis.analysis.MASK_COLORS">
+<span class="sig-name descname"><span class="pre">MASK_COLORS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['red',</span> <span class="pre">'green',</span> <span class="pre">'blue',</span> <span class="pre">'yellow',</span> <span class="pre">'magenta',</span> <span class="pre">'cyan']</span></em><a class="headerlink" href="#mammopy.analysis.analysis.MASK_COLORS" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mammopy.analysis.analysis.canny_edges">
+<span class="sig-name descname"><span class="pre">canny_edges</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/mammopy/analysis.html#analysis.canny_edges"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.analysis.analysis.canny_edges" title="Permalink to this definition"></a></dt>
+<dd><p>Detect edges using the Canny algorithm.</p>
+<p>Parameters:
+image_array (numpy.ndarray): The input image array</p>
+<p>Returns:
+edges (numpy.ndarray): A binary edge map with detected edges marked with 1.</p>
+<p>Raises:
+TypeError: If the input image is not a numpy array.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mammopy.analysis.analysis.density_estimation">
+<span class="sig-name descname"><span class="pre">density_estimation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/mammopy/analysis.html#analysis.density_estimation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.analysis.analysis.density_estimation" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the percentage of mammogram density in an input image.
+Args:</p>
+<blockquote>
+<div><p>model (str): The name of the pre-trained model to use.
+img: Input image in np.ndarray or PIL.Image format</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Returns:</dt><dd><ul class="simple">
+<li><p>image: The image in 256*256 size used for analysis</p></li>
+<li><p>pred1: The breast area of mammogram</p></li>
+<li><p>pred2: The dense area of mammogram</p></li>
+<li><p>percentage_density: The percentage of mammogram density in the input image.</p></li>
+</ul>
+</dd>
+<dt>Raises:</dt><dd><p>TypeError: If <cite>model</cite> is not a string or <cite>image_path</cite> is not a string.
+ValueError: If <cite>model</cite> is not a valid pre-trained model name or <cite>image_path</cite>
+does not point to a valid image file.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mammopy.analysis.analysis.mask_to_rgba">
+<span class="sig-name descname"><span class="pre">mask_to_rgba</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">color</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'red'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/mammopy/analysis.html#analysis.mask_to_rgba"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.analysis.analysis.mask_to_rgba" title="Permalink to this definition"></a></dt>
+<dd><p>Converts binary segmentation mask from white to red color.
+Also adds alpha channel to make black background transparent.
+Args:</p>
+<blockquote>
+<div><p>mask (numpy.ndarray): [description]
+color (str, optional): Check <cite>MASK_COLORS</cite> for available colors. Defaults to “red”.</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>numpy.ndarray: [description]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mammopy.analysis.analysis.multi_density_estimation">
+<span class="sig-name descname"><span class="pre">multi_density_estimation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">folder_path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/mammopy/analysis.html#analysis.multi_density_estimation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.analysis.analysis.multi_density_estimation" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the percentage of mammogram density in an input image.
+Args:</p>
+<blockquote>
+<div><p>model (str): The name of the pre-trained model to use.
+folder_path (str): The path to the input folder of files.</p>
+</div></blockquote>
+<dl>
+<dt>Returns:</dt><dd><p>dict: A dictionary containing the results of the computation of each valid file. The dictionary
+has the following keys:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>File: Name of the valid file, Skips the analysis for wrong file format</p></li>
+<li><p>Non_Dense_Area: The total number of pixels in the input file that corresponse</p></li>
+</ul>
+<p>to non-dense tissue. (i.e., non-fibroglandular)
+- Dense_Area: The total number of pixels in the input file that corresponse
+to dense tissue. (i.e., fibroglandular)
+- Percentage_Density: The percentage of mammogram density of the input files.</p>
+</div></blockquote>
+</dd>
+<dt>Raises:</dt><dd><p>TypeError: If <cite>model</cite> is not a string or <cite>folder_path</cite> is not a string.
+ValueError: If <cite>model</cite> is not a valid pre-trained model name or <cite>folder_path</cite>
+does not point to a valid folder.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mammopy.analysis.analysis.single_density_estimation">
+<span class="sig-name descname"><span class="pre">single_density_estimation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">visualization</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">breast_segmentation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dense_segmentation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/mammopy/analysis.html#analysis.single_density_estimation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.analysis.analysis.single_density_estimation" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the percentage of mammogram density in an input image.
+Args:</p>
+<blockquote>
+<div><p>model (str): The name of the pre-trained model to use.
+img: Input image in np.ndarray or PIL.Image format
+visualization: For display output
+breast_segmentation: Customize output to visualize Breast Area
+dense_segmentation: Customize output to visualize Dense Area</p>
+</div></blockquote>
+<dl>
+<dt>Returns:</dt><dd><p>dict: A dictionary containing the results of the computation. The dictionary
+has the following keys:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>non_dense_area: The total number of pixels in the input image that corresponse</p></li>
+</ul>
+<p>to non-dense tissue. (i.e., non-fibroglandular)
+- dense_area: The total number of pixels in the input image that corresponse
+to dense tissue. (i.e., fibroglandular)
+- percentage_density: The percentage of mammogram density in the input image.</p>
+</div></blockquote>
+</dd>
+<dt>Raises:</dt><dd><p>TypeError: If <cite>model</cite> is not a string or <cite>image_path</cite> is not a string.
+ValueError: If <cite>model</cite> is not a valid pre-trained model name or <cite>image_path</cite>
+does not point to a valid image file.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-mammopy.pre_process">
+<span id="mammopy-pre-process-module"></span><h2>mammopy.pre_process module<a class="headerlink" href="#module-mammopy.pre_process" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="mammopy.pre_process.pre_process">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mammopy.pre_process.</span></span><span class="sig-name descname"><span class="pre">pre_process</span></span><a class="reference internal" href="_modules/mammopy/pre_process.html#pre_process"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.pre_process.pre_process" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="mammopy.pre_process.pre_process.image_tensor">
+<span class="sig-name descname"><span class="pre">image_tensor</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/mammopy/pre_process.html#pre_process.image_tensor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.pre_process.pre_process.image_tensor" title="Permalink to this definition"></a></dt>
+<dd><p>Converts a PIL Image or NumPy array to a PyTorch tensor.
+Args:
+- img: PIL.Image or np.ndarray, the image to be converted to a PyTorch tensor.
+Returns:
+- image: torch.Tensor, the converted PyTorch tensor.
+Raises:
+- TypeError: if the input image is not a PIL.Image or np.ndarray.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mammopy.pre_process.pre_process.load_model">
+<span class="sig-name descname"><span class="pre">load_model</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/mammopy/pre_process.html#pre_process.load_model"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.pre_process.pre_process.load_model" title="Permalink to this definition"></a></dt>
+<dd><p>Loads a pre-trained model from a given path.
+Args:
+- model_path: str, the path to the pre-trained model.</p>
+<blockquote>
+<div><p>If model_path = ‘base’, then the default pre-trained model will be loaded.</p>
+</div></blockquote>
+<p>Returns:
+- model: torch.nn.Module, the pre-trained model loaded from the specified path.
+Raises:
+- TypeError: if the input model_path is not ‘base’.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-mammopy.visualization">
+<span id="mammopy-visualization-module"></span><h2>mammopy.visualization module<a class="headerlink" href="#module-mammopy.visualization" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="mammopy.visualization.visualization">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mammopy.visualization.</span></span><span class="sig-name descname"><span class="pre">visualization</span></span><a class="reference internal" href="_modules/mammopy/visualization.html#visualization"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.visualization.visualization" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="mammopy.visualization.visualization.visualize_breast_dense_segmentation">
+<span class="sig-name descname"><span class="pre">visualize_breast_dense_segmentation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">breast_prediction_mask</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dense_prediction_mask</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/mammopy/visualization.html#visualization.visualize_breast_dense_segmentation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mammopy.visualization.visualization.visualize_breast_dense_segmentation" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the plots of mammogram/s.
+Args:</p>
+<blockquote>
+<div><p>image: Input image in np.ndarray
+breast_prediction_mask: Customize output to visualize Breast Area
+dense_prediction_mask: Customize output to visualize Dense Area</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Returns:</dt><dd><dl class="simple">
+<dt>Three plots:</dt><dd><ul class="simple">
+<li><p>Combined plot of breast and dense area.</p></li>
+<li><p>Plot of breast area.</p></li>
+<li><p>Plot of dense area.</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt>Raises:</dt><dd><p>TypeError: If <cite>image</cite> is not in nd.narray format.
+TypeError: If <cite>breast_prediction_mask</cite> is not in nd.narray format.
+TypeError: If <cite>dense_prediction_mask</cite> is not in nd.narray format.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="MammoPy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, UEF Cancer Group.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
