@@ -8,7 +8,7 @@ A Comprehensive Deep Learning Library for Mammogram Assessment
 [![PyPI version](https://badge.fury.io/py/mammopy.svg)](https://badge.fury.io/py/mammopy)
 ![GitHub](https://img.shields.io/github/license/mammopy/mammopy)
 # Useful Links
-**[[Documentation]]([https://github.com/uefcancer/mammopy/](https://uefcancer.github.io/MammoPy/))**
+**[[Documentation]](https://uefcancer.github.io/MammoPy/)**
 | **[[Paper]](https://www.nature.com/articles/s41598-021-93169-w.pdf)** 
 | **[[Notebook examples]](https://github.com/uefcancer/MammoPy/tree/main/notebooks)** 
 | **[[Web applications]](https://wiki-breast.onrender.com/)** 
