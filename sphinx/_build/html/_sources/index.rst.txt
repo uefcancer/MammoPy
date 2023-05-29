@@ -19,7 +19,6 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-
 .. raw:: html
 
    <p align="center">
@@ -33,13 +32,20 @@ MammoPy
 
 A Comprehensive Deep Learning Library for Mammogram Assessment
 
-|PyPI version| |GitHub| # Useful Links
-`[Documentation] <https://github.com/uefcancer/mammopy/>`__ \|
-`[Paper] <>`__ \| `[Notebook examples] <>`__ \| `[Web
-applications] <>`__ # Introduction **Welcome to ``MammoPy``
-Repository!** ``MammoPy`` is a python-based library designed to
-facilitate the creation of mammogram image analysis pipelines . The
-library includes plug-and-play modules to perform:
+|PyPI version| |GitHub| 
+
+# Useful Links
+`[Documentation] <https://uefcancer.github.io/MammoPy/>`__ \|
+`[Paper] <https://www.nature.com/articles/s41598-021-93169-w.pdf>`__ \|
+`[Notebook
+examples] <https://github.com/uefcancer/MammoPy/tree/main/notebooks>`__
+\| `[Web applications] <https://wiki-breast.onrender.com/>`__ 
+
+#
+Introduction **Welcome to ``MammoPy`` !** ``MammoPy`` is a
+python-based library designed to facilitate the creation of mammogram
+image analysis pipelines . The library includes plug-and-play modules to
+perform:
 
 -  Standard mammogram image pre-processing (e.g., *normalization*,
    *bounding box cropping*, and *DICOM to jpeg conversion*)

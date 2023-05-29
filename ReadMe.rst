@@ -1,24 +1,3 @@
-.. MammoPy documentation master file, created by
-   sphinx-quickstart on Wed May 17 10:25:51 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to MammoPy's documentation!
-===================================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   modules
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 .. raw:: html
 
    <p align="center">
@@ -32,17 +11,13 @@ MammoPy
 
 A Comprehensive Deep Learning Library for Mammogram Assessment
 
-|PyPI version| |GitHub| 
-
-# Useful Links
+|PyPI version| |GitHub| # Useful Links
 `[Documentation] <https://uefcancer.github.io/MammoPy/>`__ \|
 `[Paper] <https://www.nature.com/articles/s41598-021-93169-w.pdf>`__ \|
 `[Notebook
 examples] <https://github.com/uefcancer/MammoPy/tree/main/notebooks>`__
-\| `[Web applications] <https://wiki-breast.onrender.com/>`__ 
-
-#
-Introduction **Welcome to ``MammoPy`` !** ``MammoPy`` is a
+\| `[Web applications] <https://wiki-breast.onrender.com/>`__ #
+Introduction **Welcome to ``MammoPy`` Repository!** ``MammoPy`` is a
 python-based library designed to facilitate the creation of mammogram
 image analysis pipelines . The library includes plug-and-play modules to
 perform:

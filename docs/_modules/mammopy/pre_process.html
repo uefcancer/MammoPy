@@ -133,14 +133,14 @@
             <span class="c1"># Convert PIL image to PyTorch tensor</span>
             <span class="n">image</span> <span class="o">=</span> <span class="n">torch_tensor</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
             <span class="n">image</span> <span class="o">=</span> <span class="n">image</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;tensor&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">image</span><span class="p">))</span>
+            <span class="c1">#print(&quot;tensor&quot;, type(image))</span>
             <span class="k">return</span> <span class="n">image</span>
         <span class="k">elif</span> <span class="nb">type</span><span class="p">(</span><span class="n">img</span><span class="p">)</span> <span class="o">==</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">:</span>
             <span class="c1"># Convert NumPy array to RGB PIL image and then to PyTorch tensor</span>
             <span class="n">pil_image</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">fromarray</span><span class="p">(</span><span class="n">img</span><span class="p">)</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="s2">&quot;RGB&quot;</span><span class="p">)</span>
             <span class="n">image</span> <span class="o">=</span> <span class="n">torch_tensor</span><span class="p">(</span><span class="n">pil_image</span><span class="p">)</span>
             <span class="n">image</span> <span class="o">=</span> <span class="n">image</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;tensor&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">image</span><span class="p">))</span>
+            <span class="c1">#print(&quot;tensor&quot;, type(image))</span>
             <span class="k">return</span> <span class="n">image</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;Input must be np.ndarray or PIL.Image&quot;</span><span class="p">)</span></div></div>
