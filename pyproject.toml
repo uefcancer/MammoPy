@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mammopy"
-version = "0.0.16"
+version = "0.0.17"
 description = "A unified solution for mammogram image analysis and interpretation"
 authors = ["UEF Cancer <uef.cancergroup@gmail.com>"]
 readme = "README.md"
