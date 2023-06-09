@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://cdn.imgbin.com/10/3/23/imgbin-breast-cancer-senology-mammography-diego-JcEW147fdbivCyrvC5vykSPj3.jpg" width="200">
-</p>
 
 # MammoPy
 A Comprehensive Deep Learning Library for Mammogram Assessment
